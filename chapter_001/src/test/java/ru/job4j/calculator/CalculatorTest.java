@@ -33,4 +33,5 @@ public class CalculatorTest  {
         double expected = 4D;
         assertThat(result, is(expected));
     }
+
 }
