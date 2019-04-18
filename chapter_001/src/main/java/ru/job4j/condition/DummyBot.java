@@ -12,13 +12,11 @@ public class DummyBot {
      * @return Ответ.
      */
     public String answer(String question) {
-        String question1 = "Привет, Бот.";
-        String question2 = "Пока.";
         String rsl = "Это ставит меня в тупик. Задайте другой вопрос.";
-        if ("Привет, Бот.".equals(question1)) {
-            System.out.println("Привет,умник.");
-        } else if ("Пока.".equals(question2)) {
-            System.out.println("До скорой встречи.");
+        if ("Привет, Бот.".equals(question)) {
+            rsl = "Привет,умник.";
+        } else if ("Пока.".equals(question)) {
+            rsl = "До скорой встречи.";
         }
         return rsl;
     }
