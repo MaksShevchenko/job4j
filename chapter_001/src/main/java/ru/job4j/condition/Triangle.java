@@ -54,7 +54,7 @@ public class Triangle {
      */
     private boolean exist(double a, double c, double b) {
         //треугольник существует когда сумма любых двух его сторон больше третьей стороны.
-        if   ( a+b <= c ||  a+c <= b ||  b+c <= a  ||    a<1 || b<1 || c<1 ){
+        if   ( a+b <= c ||  a+c <= b ||  b+c <= a ){
             System.out.println("Треугольник можно построить.");
         }
            return false;
