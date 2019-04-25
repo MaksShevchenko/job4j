@@ -10,7 +10,8 @@ public class Counter {
      * @param finish конечное число.
      * @return сумма четных чисел.
      */
-    public int add(int finish) {
+
+    /*public int add(int finish) {
         int sum=0;
         int start =1;
         // Цикл for проверяет весь диапазон значений от start до finish.
@@ -20,6 +21,16 @@ public class Counter {
             sum=sum+ start;
         }
     }
+        return sum;
+    }
+} */
+    public int add(int start, int finish) {
+        int sum=0;
+        for(start = 0; start <=finish  ; start++  ){
+            if (start % 2 ==0 ){
+                sum=sum+ start;
+            }
+        }
         return sum;
     }
 }
