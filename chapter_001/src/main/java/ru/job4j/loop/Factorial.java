@@ -6,10 +6,11 @@ package ru.job4j.loop;
  */
 public class Factorial {
     public int calc(int n) {
-        int result = 0;
-        for(int i=1; 1<=n; i++){
+        int result=1;
+        //Цикл for проходит от 1 до n и перемножает числа.
+        for(int i=1; i<=n; i++){
             result=result*i;
         }
-        return result=1;
+        return result;
     }
 }
