@@ -1,6 +1,6 @@
 package ru.job4j.condition;
 /**
- * Class MultiMax - задание Максимум из трех чисел[#122778]
+ * Class MultiMax - задание Максимум из трех чисел[#122778].
  * @author Maks Shevchenko (sheva.maks@gmail.com)
  * @since 21.04.2019
  */
@@ -12,7 +12,7 @@ public class MultiMax {
      * (first>second) ? ((first>third) ? first : third) : ((second>third) ? second : third);
      */
     public int max(int first, int second, int third) {
-        int result = (first>second) ? first : second ;
-        return  (result>third) ? result : third;
+        int result = (first > second) ? first : second;
+        return  (result > third) ? result : third;
     }
 }
