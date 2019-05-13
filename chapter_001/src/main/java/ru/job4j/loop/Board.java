@@ -22,7 +22,7 @@ public class Board {
                 /**Условный оператор if.
                  * Условие для чередования символа "X" c " ".
                  */
-                if ((i + j)% 2 == 0) {
+                if ((i + j) % 2 == 0) {
                     screen.append("X");
                 } else {
                     screen.append(" ");
